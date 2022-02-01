@@ -10,7 +10,7 @@ func strbig(s string) (i *big.Int) {
 }
 
 var secp128r2 = &elliptic.CurveParams{
-	P: strbig("0xfffffffdfffffffffffffffffffffffc"), // Prime
+	P: strbig("0xfffffffdffffffffffffffffffffffff"), // Prime
 	N: strbig("0x3fffffff7fffffffbe0024720613b5a3"), // Order
 	B: strbig("0x5eeefca380d02919dc2c6558bb6d8a5d"), // B
 	Gx: strbig("0x7b6aa5d85e572983e6fb32a7cdebc140"),  // Generator X
