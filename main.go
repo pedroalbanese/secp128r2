@@ -1,4 +1,4 @@
-package secp128r1
+package secp128r2
 
 import "crypto/elliptic"
 import "math/big"
